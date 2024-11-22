@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <title>Home - Página Principal</title>
+    
+    <!-- Agregar Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    
 </head>
 <body>
-    <h1>¡Hola Mundo!</h1>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="nav-wrapper blue">
+            <a href="#" class="brand-logo center">Mi Web</a>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal de la página -->
+    <div class="container">
+
+        <!-- Título principal -->
+        <h1 class="center-align">¡Bienvenidos a la Página Principal!</h1>
+        <p class="flow-text center-align">Este es un diseño utilizando Materialize CSS.</p>
+
+        <!-- Botón con Materialize -->
+        <div class="center-align">
+            <a href="#" class="btn-large waves-effect waves-light blue">Haz clic aquí</a>
+        </div>
+
+        <!-- Tarjeta con Materialize -->
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Tarjeta de ejemplo</span>
+                <p>Este es un ejemplo de cómo usar Materialize CSS para mejorar el diseño.</p>
+            </div>
+            <div class="card-action">
+                <a href="#">Más información</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JS (y jQuery como dependencia) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
 </html>
-
