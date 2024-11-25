@@ -1,0 +1,37 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de compilación
+*.class
+*.pyc
+*.o
+*.so
+
+# Carpetas de IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Ruby
+*.gem
+
+# Java
+target/
+
+# Configuración del sistema operativo
+.vagrant/
+
+# Archivos temporales
+*.swp
+*.tmp
